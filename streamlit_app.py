@@ -7,7 +7,7 @@ data = {
     'App': ['App A', 'App B', 'App C', 'App D']
 }
 df = pd.DataFrame(data)
-filtered_df= pd.DataFrame(data)
+
 st.title('Zugriffsanfrage für Programm')
 
 # Eingabefelder für Name und Organisation
@@ -35,3 +35,7 @@ if st.button('Anfrage absenden'):
 # Anzeige der gefilterten Tabelle
 st.write('Gefilterte Auswahl:')
 st.dataframe(filtered_df)
+
+# Anzeige der gefilterten Tabelle
+st.write('Auswahl:')
+st.dataframe(data)
