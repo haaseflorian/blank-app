@@ -4,7 +4,9 @@ import pandas as pd
 # Beispiel-Daten für die Tabelle
 data = {
     'Space': ['Space 1', 'Space 2', 'Space 3', 'Space 4'],
-    'App': ['App A', 'App B', 'App C', 'App D']
+    'App': ['App A', 'App B', 'App C', 'App D'],
+    'Scope': ['CORP', 'CORP', 'BER', 'NUR'],
+    'TAG': ['Inventory', 'Sales', 'WIP', 'SPS']
 }
 df = pd.DataFrame(data)
 
