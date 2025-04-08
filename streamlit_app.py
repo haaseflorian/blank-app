@@ -7,7 +7,7 @@ data = {
     'App': ['App A', 'App B', 'App C', 'App D']
 }
 df = pd.DataFrame(data)
-
+filtered_df= pd.DataFrame(data)
 st.title('Zugriffsanfrage für Programm')
 
 # Eingabefelder für Name und Organisation
