@@ -10,7 +10,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-st.title('Zugriffsanfrage für Programm')
+st.title('Access Request')
 
 # Eingabefelder für Name und Organisation
 name = st.text_input('Name')
