@@ -1,3 +1,6 @@
+import streamlit as st
+import pandas as pd
+
 # Beispiel-Daten für die Tabelle
 data = {
     'Space': ['Space 1', 'Space 2', 'Space 3', 'Space 4'],
